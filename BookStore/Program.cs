@@ -1,9 +1,11 @@
-﻿using System;
+﻿using BookStore.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DataGridView_CS
+namespace BookStore
 {
     static class Program
     {
@@ -15,7 +17,7 @@ namespace DataGridView_CS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Index());
         }
     }
 }
